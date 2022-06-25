@@ -5,8 +5,8 @@ body {
 
 h1 {
   color: beige;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 40px;
+  font-weight: normal;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -22,8 +22,8 @@ li {
   padding: 0;
 
   color: beige;
-  font-size: 40px;
-  font-weight: 100;
+  font-size: 35px;
+  font-weight: normal;
   line-height: 43px;
 }
 
@@ -67,6 +67,10 @@ li:first-letter {
   top: -34px;
 }
 
+#github-link {
+  text-align: center;
+  color: beige;
+}
 .weather-temperature .active {
   color: beige;
   cursor: default;
@@ -80,15 +84,11 @@ li:first-letter {
   margin-top: 20px;
   text-align: center;
   color: beige;
+  font-weight: normal;
 }
 
-.weather-forecast-date {
-  font-size: 40px;
-  color: beige;
-}
-
-.weather-forecast-temperature-min {
-  color: beige;
+.weather-forecast-day {
+  font-size: 35px;
 }
 
 .weather-forecast-temperatures {
